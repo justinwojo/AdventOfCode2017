@@ -11,10 +11,10 @@ Instead of considering the next digit, it wants you to consider the digit halfwa
 
 ## Day 2
 #### Part 1
-TBD
+Calculate the spreadsheet's checksum. For each row, determine the difference between the largest value and the smallest value; the checksum is the sum of all of these differences.
 
 #### Part 2
-TBD
+Find the only two numbers in each row where one evenly divides the other - that is, where the result of the division operation is a whole number. They would like you to find those numbers on each line, divide them, and add up each line's result.
 
 ## Day 3
 #### Part 1
