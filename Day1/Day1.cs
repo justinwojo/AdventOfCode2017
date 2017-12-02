@@ -15,14 +15,10 @@ namespace Advent
             Console.WriteLine("D1P2 Answer: " + GetDay2Answer());
             Console.Read();
         }
-
-        /// <summary>
-        /// 12334
-        /// </summary>
-        /// <returns></returns>
+        
         public static string GetDay1Answer()
         {
-            var line = File.ReadLines("Day1/part1input.txt").First();
+            var line = File.ReadLines("Day1/day1input.txt").First();
             char holder = '0';
             int sum = 0;
             foreach(var c in line)
@@ -33,31 +29,19 @@ namespace Advent
                     continue;
                 }
 
-                if(holder == c)
-                {
-                    sum += Convert.ToInt32(holder.ToString());
-                }
+                if(holder == c) sum += Convert.ToInt32(holder.ToString());
 
                 holder = c;
             }
 
-            foreach (var c in line)
-            {
-                if (holder == c)
-                {
-                    sum += Convert.ToInt32(holder.ToString());
-                }
-                else break;
-
-                holder = c;
-            }
+            if(holder == line[0]) sum += Convert.ToInt32(holder.ToString());
 
             return sum.ToString();
         }
         
         public static string GetDay2Answer()
         {
-            var line = File.ReadLines("Day1/part1input.txt").First();
+            var line = File.ReadLines("Day1/day1input.txt").First();
             int sum = 0;
             var half = line.Length / 2;
 
