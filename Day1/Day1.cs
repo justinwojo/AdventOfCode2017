@@ -7,16 +7,9 @@ using System.Threading.Tasks;
 
 namespace Advent
 {
-    class Day1
+    public static class Day1
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("D1P1 Answer: " + GetDay1Answer());
-            Console.WriteLine("D1P2 Answer: " + GetDay2Answer());
-            Console.Read();
-        }
-        
-        public static string GetDay1Answer()
+        public static string GetPart1Answer()
         {
             var line = File.ReadLines("Day1/day1input.txt").First();
             char holder = '0';
@@ -39,7 +32,7 @@ namespace Advent
             return sum.ToString();
         }
         
-        public static string GetDay2Answer()
+        public static string GetPart2Answer()
         {
             var line = File.ReadLines("Day1/day1input.txt").First();
             int sum = 0;
