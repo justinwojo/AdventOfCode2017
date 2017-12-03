@@ -18,20 +18,26 @@ Find the only two numbers in each row where one evenly divides the other - that 
 
 ## Day 3
 #### Part 1
-Get the manhatten distance of the input given a spiral model as so:
-17  16  15  14  13
-18   5   4   3  12
-19   6   1   2  11
-20   7   8   9  10
-21  22  23---> ...
+Get the manhatten distance of the input given a spiral model as so:  
+
+|    |    |    |    |    |
+|----|----|----|----|----|
+| 17 | 16 | 15 | 14 | 13 |
+| 18 | 5  | 4  | 3  | 12 |
+| 19 | 6  | 1  | 2  | 11 |
+| 20 | 7  | 8  | 9  | 10 |
+| 21 | 22 | 23 | 24 | 25 |
 
 #### Part 2
-Store the sum of all adjacent squares following the same spiral pattern in part 1
-147  142  133  122   59
-304    5    4    2   57
-330   10    1    1   54
-351   11   23   25   26
-362  747  806--->   ...
+Store the sum of all adjacent squares following the same spiral pattern in part 1  
+
+|     |     |     |     |     |
+|-----|-----|-----|-----|-----|
+| 147 | 142 | 133 | 122 | 59  |
+| 304 | 5   | 4   | 2   | 57  |
+| 330 | 10  | 1   | 1   | 54  |
+| 351 | 11  | 23  | 25  | 26  |
+| 362 | 747 | 806 | --> | ... |
 
 ## Day 4
 #### Part 1
