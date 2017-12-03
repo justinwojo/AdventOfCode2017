@@ -10,11 +10,14 @@ namespace Advent
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("D1P1 Answer: " + Day1.GetPart1Answer());
-            Console.WriteLine("D1P2 Answer: " + Day1.GetPart2Answer());
+            //Console.WriteLine("D1P1 Answer: " + Day1.GetPart1Answer());
+            //Console.WriteLine("D1P2 Answer: " + Day1.GetPart2Answer());
 
-            Console.WriteLine("D2P1 Answer: " + Day2.GetPart1Answer());
-            Console.WriteLine("D2P2 Answer: " + Day2.GetPart2Answer());
+            //Console.WriteLine("D2P1 Answer: " + Day2.GetPart1Answer());
+            //Console.WriteLine("D2P2 Answer: " + Day2.GetPart2Answer());
+
+            Console.WriteLine("D3P1 Answer: " + Day3.GetPart1Answer());
+            Console.WriteLine("D3P2 Answer: " + Day3.GetPart2Answer());
 
             Console.Read();
         }
