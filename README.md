@@ -35,10 +35,10 @@ Store the sum of all adjacent squares following the same spiral pattern in part 
 
 ## Day 4
 #### Part 1
-TBD
+A passphrase consists of a series of words (lowercase letters) separated by spaces. To ensure security, a valid passphrase must contain no duplicate words. How many passcodes are valid?
 
 #### Part 2
-TBD
+The passphrase's security now doesn't accept anagrams instead of just duplicates. How many passphrases are valid that contain no anagrams? (Anagram = cat, act, tac, ...)
 
 ## Day 5
 #### Part 1

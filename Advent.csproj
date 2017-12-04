@@ -46,6 +46,7 @@
     <Compile Include="Day2\Day2.cs" />
     <Compile Include="AdventMain.cs" />
     <Compile Include="Day3\Day3.cs" />
+    <Compile Include="Day4\Day4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +58,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day2\day2input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day4\day4input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
