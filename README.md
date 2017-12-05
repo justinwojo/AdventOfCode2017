@@ -48,7 +48,8 @@ The passphrase's security now doesn't accept anagrams instead of just duplicates
 
 ## Day 5
 #### Part 1
-Given a list of numbers starting at the first number, move your position in the list by the number at that spot and then increase that first number by 1. So if the list was 1,2,3.. Start at 1, move right 1 to 2, but increase 1 to 2.
+Given a list of numbers starting at the first number, move your position in the list by the number at that spot and then increase that first number by 1.
+So if the list was 1,2,3.. Start at 1, move right 1 to 2, but increase 1 to 2. Return the amount of steps you've gone until you're outside of the list.
 
 #### Part 2
 Same as part 1 except if the number at the spot is 3 or greater, minus that number by 1. If its 2 or less, still add 1.
