@@ -19,8 +19,11 @@ namespace Advent
             //Console.WriteLine("D3P1 Answer: " + Day3.GetPart1Answer());
             //Console.WriteLine("D3P2 Answer: " + Day3.GetPart2Answer());
 
-            Console.WriteLine("D4P1 Answer: " + Day4.GetPart1Answer());
-            Console.WriteLine("D4P2 Answer: " + Day4.GetPart2Answer());
+            //Console.WriteLine("D4P1 Answer: " + Day4.GetPart1Answer());
+            //Console.WriteLine("D4P2 Answer: " + Day4.GetPart2Answer());
+
+            Console.WriteLine("D5P1 Answer: " + Day5.GetPart1Answer());
+            Console.WriteLine("D5P2 Answer: " + Day5.GetPart2Answer());
 
             Console.Read();
         }
