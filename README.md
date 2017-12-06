@@ -56,10 +56,12 @@ Same as part 1 except if the number at the spot is 3 or greater, minus that numb
 
 ## Day 6
 #### Part 1
-TBD
+Given a list of numbers, find the memory bank with the most blocks (ties won by the lowest-numbered memory bank) and redistribute those blocks among the banks. To do this, remove all of the blocks from the selected bank, then move to the next (by index) memory bank and insert one of the blocks. Continue doing this until it runs out of blocks; if it reaches the last memory bank, wrap around to the first one.
+
+The debugger would like to know how many redistributions can be done before a blocks-in-banks configuration is produced that has been seen before.
 
 #### Part 2
-TBD
+Find the distance between the repeated memory banks (how many times between first occurance and next occurance).
 
 ## Day 7
 #### Part 1
